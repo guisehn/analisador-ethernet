@@ -2,8 +2,8 @@
 //  AnalisadorEthernetTests.m
 //  AnalisadorEthernetTests
 //
-//  Created by Guilherme on 15/11/13.
-//  Copyright (c) 2013 Guilherme. All rights reserved.
+//  Trabalho 2 - Comunicação de Dados - UNISC
+//  Desenvolvido por Guilherme Henrique Sehn (matr. 70326)
 //
 
 #import <XCTest/XCTest.h>

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		797D392C18385C5D00929E82 /* TiposDados.plist in Resources */ = {isa = PBXBuildFile; fileRef = 797D392B18385C5D00929E82 /* TiposDados.plist */; };
 		79E60616183682490038966C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E60615183682490038966C /* Cocoa.framework */; };
 		79E60620183682490038966C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E6061E183682490038966C /* InfoPlist.strings */; };
 		79E60622183682490038966C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E60621183682490038966C /* main.m */; };
-		79E60626183682490038966C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 79E60624183682490038966C /* Credits.rtf */; };
 		79E60629183682490038966C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E60628183682490038966C /* AppDelegate.m */; };
 		79E6062C183682490038966C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E6062A183682490038966C /* MainMenu.xib */; };
 		79E6062E183682490038966C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E6062D183682490038966C /* Images.xcassets */; };
@@ -18,6 +18,7 @@
 		79E60636183682490038966C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E60615183682490038966C /* Cocoa.framework */; };
 		79E6063E183682490038966C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79E6063C183682490038966C /* InfoPlist.strings */; };
 		79E60640183682490038966C /* AnalisadorEthernetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E6063F183682490038966C /* AnalisadorEthernetTests.m */; };
+		79E6064F183691E20038966C /* libpcap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E6064E183691E20038966C /* libpcap.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79E60612183682490038966C /* AnalisadorEthernet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalisadorEthernet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		797D392B18385C5D00929E82 /* TiposDados.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TiposDados.plist; sourceTree = "<group>"; };
+		79E60612183682490038966C /* Analisador Ethernet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Analisador Ethernet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E60615183682490038966C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		79E60618183682490038966C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		79E60619183682490038966C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -40,7 +42,6 @@
 		79E6061F183682490038966C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79E60621183682490038966C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79E60623183682490038966C /* AnalisadorEthernet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnalisadorEthernet-Prefix.pch"; sourceTree = "<group>"; };
-		79E60625183682490038966C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		79E60627183682490038966C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79E60628183682490038966C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79E6062B183682490038966C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		79E6063B183682490038966C /* AnalisadorEthernetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnalisadorEthernetTests-Info.plist"; sourceTree = "<group>"; };
 		79E6063D183682490038966C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79E6063F183682490038966C /* AnalisadorEthernetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalisadorEthernetTests.m; sourceTree = "<group>"; };
+		79E6064E183691E20038966C /* libpcap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpcap.dylib; path = usr/lib/libpcap.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E6064F183691E20038966C /* libpcap.dylib in Frameworks */,
 				79E60616183682490038966C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,7 +89,7 @@
 		79E60613183682490038966C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79E60612183682490038966C /* AnalisadorEthernet.app */,
+				79E60612183682490038966C /* Analisador Ethernet.app */,
 				79E60633183682490038966C /* AnalisadorEthernetTests.xctest */,
 			);
 			name = Products;
@@ -95,6 +98,7 @@
 		79E60614183682490038966C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79E6064E183691E20038966C /* libpcap.dylib */,
 				79E60615183682490038966C /* Cocoa.framework */,
 				79E60634183682490038966C /* XCTest.framework */,
 				79E60617183682490038966C /* Other Frameworks */,
@@ -131,7 +135,7 @@
 				79E6061E183682490038966C /* InfoPlist.strings */,
 				79E60621183682490038966C /* main.m */,
 				79E60623183682490038966C /* AnalisadorEthernet-Prefix.pch */,
-				79E60624183682490038966C /* Credits.rtf */,
+				797D392B18385C5D00929E82 /* TiposDados.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,7 +175,7 @@
 			);
 			name = AnalisadorEthernet;
 			productName = AnalisadorEthernet;
-			productReference = 79E60612183682490038966C /* AnalisadorEthernet.app */;
+			productReference = 79E60612183682490038966C /* Analisador Ethernet.app */;
 			productType = "com.apple.product-type.application";
 		};
 		79E60632183682490038966C /* AnalisadorEthernetTests */ = {
@@ -230,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797D392C18385C5D00929E82 /* TiposDados.plist in Resources */,
 				79E60620183682490038966C /* InfoPlist.strings in Resources */,
 				79E6062E183682490038966C /* Images.xcassets in Resources */,
-				79E60626183682490038966C /* Credits.rtf in Resources */,
 				79E6062C183682490038966C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,14 +286,6 @@
 				79E6061F183682490038966C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		79E60624183682490038966C /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79E60625183682490038966C /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		79E6062A183682490038966C /* MainMenu.xib */ = {
@@ -387,7 +383,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnalisadorEthernet/AnalisadorEthernet-Prefix.pch";
 				INFOPLIST_FILE = "AnalisadorEthernet/AnalisadorEthernet-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Analisador Ethernet";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,7 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnalisadorEthernet/AnalisadorEthernet-Prefix.pch";
 				INFOPLIST_FILE = "AnalisadorEthernet/AnalisadorEthernet-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Analisador Ethernet";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -464,6 +460,7 @@
 				79E60645183682490038966C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79E60646183682490038966C /* Build configuration list for PBXNativeTarget "AnalisadorEthernetTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +469,7 @@
 				79E60648183682490038966C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
